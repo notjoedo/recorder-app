@@ -251,27 +251,14 @@
       <string>Save</string>
      </property>
     </widget>
-    <widget class="QLabel" name="saveStatus">
-     <property name="geometry">
-      <rect>
-       <x>440</x>
-       <y>250</y>
-       <width>101</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>* NOT SAVED</string>
-     </property>
-    </widget>
    </widget>
    <widget class="QPushButton" name="recordButton">
     <property name="geometry">
      <rect>
       <x>10</x>
       <y>390</y>
-      <width>351</width>
-      <height>91</height>
+      <width>111</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="layoutDirection">
@@ -284,40 +271,40 @@
      <iconset theme="QIcon::ThemeIcon::MediaRecord"/>
     </property>
    </widget>
-   <widget class="QLabel" name="recordStatus">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>490</y>
-      <width>351</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QListView" name="listView">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>390</y>
-      <width>391</width>
-      <height>192</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QToolButton" name="refreshList">
     <property name="geometry">
      <rect>
       <x>270</x>
-      <y>550</y>
-      <width>91</width>
-      <height>31</height>
+      <y>390</y>
+      <width>111</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
      <string>Refresh List</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="deleteFile">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>390</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete File</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listView">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>390</y>
+      <width>381</width>
+      <height>192</height>
+     </rect>
     </property>
    </widget>
   </widget>
